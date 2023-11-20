@@ -1,6 +1,6 @@
 import { somaHoraExtra, calculaDescontos } from '..';
 
-describe('Testes dos Caáculos de folha', () => {
+describe('Testes dos Calculos de folha', () => {
   test('Deve retornanar a soma das horas extras', () => {
     const esperado = 2500;
     const retornado = somaHoraExtra(2000, 500);

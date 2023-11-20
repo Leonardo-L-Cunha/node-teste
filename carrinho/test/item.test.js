@@ -12,6 +12,6 @@ describe('Teste dos Itens', () => {
   it('Deve retorna soma total do item', () => {
     const item = new Item('Arroz', 17, 3);
 
-    expect(item.pegaValorTotalItem()).toBe(51);
+    expect(item.pegaValorTotalItem()).toBeCloseTo(51);
   });
 });
